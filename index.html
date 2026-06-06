@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Page</title>
+    <title>Minh Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      body {
+        background: radial-gradient(circle at top, #0ea5e9, #1e293b);
+      }
+    </style>
   </head>
 
-  <body class="text-center bg-blue-50 p-10">
-    <h1 class="text-blue-600 text-3xl font-bold">Minh</h1>
+  <body class="min-h-screen flex items-center justify-center text-white">
 
-    <p class="text-gray-700 mt-4">
-      I am a student and I like learning web development.
-    </p>
+    <div class="backdrop-blur-xl bg-white/10 border border-white/20 shadow-2xl rounded-2xl p-10 w-[90%] max-w-2xl text-center">
 
-    <img src="https://placecats.com/600/400" alt="A cute cat" class="w-64 mx-auto mt-6 rounded-xl" />
+      <!-- Avatar -->
+      <div class="flex justify-center">
+        <img src="https://placecats.com/300/300"
+             class="w-28 h-28 rounded-full border-4 border-white shadow-lg hover:scale-110 transition duration-300" />
+      </div>
+
+      <!-- Name -->
+      <h1 class="text-4xl font-extrabold mt-6 tracking-wide">
+        Minh
+      </h1>
+
+      <p class="text-blue-100 mt-2 italic">
+        “Student. Builder. Future something cool.”
+      </p>
+
+      <!-- Divider -->
+      <div class="my-6 h-[1px] bg-white/20"></div>
+
+      <!-- Description -->
+      <p class="text-gray-200 leading-relaxed">
+        I am a student exploring web development, building random cool stuff,
+        breaking things, fixing them, and slowly turning ideas into reality.
+      </p>
+
+      <!-- Buttons -->
+      <div class="mt-8 flex justify-center gap-4">
+        <a class="px-5 py-2 bg-blue-500 hover:bg-blue-600 rounded-full transition shadow-lg">
+          GitHub
+        </a>
+
+        <a class="px-5 py-2 bg-purple-500 hover:bg-purple-600 rounded-full transition shadow-lg">
+          Projects
+        </a>
+
+        <a class="px-5 py-2 bg-pink-500 hover:bg-pink-600 rounded-full transition shadow-lg">
+          Contact
+        </a>
+      </div>
+
+      <!-- Card -->
+      <div class="mt-10 bg-white/10 p-4 rounded-xl border border-white/20 hover:scale-[1.02] transition">
+        <img src="https://placecats.com/600/400" class="rounded-lg mb-3" />
+        <p class="text-sm text-gray-200">
+          “Yes, this is still a cat. But now it’s aesthetic.”
+        </p>
+      </div>
+
+    </div>
+
   </body>
 </html>
