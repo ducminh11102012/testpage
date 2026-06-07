@@ -22,8 +22,7 @@ The website is pretty simple, but it helped me get familiar with page layouts, s
 
 ## Screenshot
 
-![Screenshot](./assets/screenshot.png)
-
+![Website Preview](web.png)
 ## What I Learned
 
 * Using Tailwind CSS
