@@ -1,58 +1,49 @@
 # My Website
 
-A personal website built with HTML + Tailwind CSS.
+A simple personal website made with HTML and Tailwind CSS.
 
-Not just a page — but a small digital space where I experiment with design, identity, and frontend development.
+## About
 
----
+I made this project to learn more about frontend development and try building my own website from scratch.
 
-## 🌐 About This Project
+The website is pretty simple, but it helped me get familiar with page layouts, styling, and responsive design.
 
-This is my first step into building visually expressive websites.
+## Built With
 
-Instead of a plain profile page, I focused on:
-- modern UI styling
-- soft glassmorphism design
-- responsive layout
-- aesthetic-first approach
+* HTML
+* Tailwind CSS
 
----
+## Features
 
-## ⚙️ Tech Stack
+* Responsive layout
+* Gradient background
+* Glassmorphism effects
+* Simple personal landing page
 
-- HTML5
-- Tailwind CSS (CDN)
-- Basic CSS gradients
-- A bit of creativity 😎
+## Screenshot
 
----
+![Screenshot](./assets/screenshot.png)
 
-## 🎯 What I Learned
+## What I Learned
 
-- How utility-first CSS works (Tailwind)
-- How to structure a simple landing page
-- How small design choices change user perception
-- How to make a “basic website” feel premium
+* Using Tailwind CSS
+* Building layouts with HTML
+* Making a website responsive
+* Working with colors and visual design
 
----
+## Future Plans
 
-## 🖼️ Preview
+* Add animations
+* Improve mobile layout
+* Add more pages
+* Turn it into a portfolio
 
-![Website Preview](https://cdn.hackclub.com/019e9c33-62d9-7a40-b4c5-97d99f60aea4/screenshot.png)
+## AI Usage
 
----
+Some design ideas were inspired by AI tools and online references.
 
-## 🚀 Future Improvements
+The website itself was built and edited by me and claude.
 
-- Add animations (hover + transitions)
-- Improve layout responsiveness
-- Add multiple pages (About / Projects / Contact)
-- Turn it into a real portfolio site
+## Notes
 
----
-
-## 🧠 Note
-
-This project is intentionally simple, but it represents my starting point in frontend development.
-
-Every complex website starts from something like this.
+This is one of my first web projects, so there's still a lot I want to improve.
